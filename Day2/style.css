@@ -1,10 +1,13 @@
 :root{
     --yellow-sade: #b8a40a;
+    --purple-shade: #8d37a0;
 
 }
 
 body{
     background: var(--yellow-sade);
+    display: flex;
+    justify-content: center;
 }
 button { 
     background-color: red;
@@ -14,9 +17,22 @@ button {
     background-color: aliceblue;
 }
 .btn2{
-    background-color: rgb(9, 57, 100);
+    background-color: #8d37a0;
 }
 .btn3{
     background-color: var(--yellow-sade);
 }
 
+.contact-form{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    gap: 8px;
+    padding: 10px;
+    border-radius: 20px ;
+}
+.input-div{
+    display: flex;
+    justify-content: space-between;
+}
