@@ -1,0 +1,22 @@
+:root{
+    --yellow-sade: #b8a40a;
+
+}
+
+body{
+    background: var(--yellow-sade);
+}
+button { 
+    background-color: red;
+}
+
+.btn1{
+    background-color: aliceblue;
+}
+.btn2{
+    background-color: rgb(9, 57, 100);
+}
+.btn3{
+    background-color: var(--yellow-sade);
+}
+
